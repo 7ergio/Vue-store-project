@@ -1,0 +1,27 @@
+.cart__header {
+  padding: 10px;
+}
+
+.cart__item {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.cart__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cart__total {
+  padding-top: 60px;
+  text-align: center;
+
+  h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 7px;
+  }
+}

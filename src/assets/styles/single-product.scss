@@ -1,0 +1,28 @@
+.single-product {
+  background: #fff;
+  padding: 20px;
+}
+
+.single-product__image-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.single-product__category {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.single-product__price {
+  font-size: 25px;
+}
+
+.single-product__description {
+  font-size: 16px;
+}
+
+.single-product__button-wrapper {
+  max-width: 250px;
+  margin-top: 80px;
+}
