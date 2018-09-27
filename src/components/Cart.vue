@@ -74,7 +74,7 @@
       totalSum: function () {
         let sum = 0
         for (let i = 0; i < this.$store.state.cartProducts.length; i++) {
-          sum += this.$store.state.cartProducts[i]['sum']
+          sum += +this.$store.state.cartProducts[i]['sum']
         }
         return sum.toString()
       }
